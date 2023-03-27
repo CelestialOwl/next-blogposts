@@ -78,8 +78,8 @@ function PostContent({ post }) {
   );
 }
 
-export const getServerSideProps = (context) => {
-  console.log("contentxt,'", context.query);
-};
+// export const getServerSideProps = (context) => {
+//   console.log("contentxt,'", context.query);
+// };
 
 export default PostContent;

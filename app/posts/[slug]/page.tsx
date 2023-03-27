@@ -12,14 +12,14 @@ export const metadata = {
   title: 'slug post',
 };
 
-export function getStaticProps(context) {
-  const { params } = context;
-  const { slug } = params;
-  console.log(slug);
-  const postData = getPostData(slug);
-  return {
-    props: {
-      post: postData,
-    },
-  };
-}
+// export function getStaticProps(context) {
+//   const { params } = context;
+//   const { slug } = params;
+//   console.log(slug);
+//   const postData = getPostData(slug);
+//   return {
+//     props: {
+//       post: postData,
+//     },
+//   };
+// }
